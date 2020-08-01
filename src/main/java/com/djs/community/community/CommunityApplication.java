@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 @MapperScan({"com.djs.community.community.dao"})
 public class CommunityApplication {
-
+	// 1
 	public static void main(String[] args) {
 		SpringApplication.run(CommunityApplication.class, args);
 	}
